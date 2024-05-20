@@ -1,0 +1,25 @@
+{
+  "name": "vitepress-starter-template",
+  "description": "An opinionated VitePress starter template",
+  "author": "Le Minh Tri &lt;ansidev@gmail.com&gt;",
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [
+    "vitepress",
+    "starter",
+    "template"
+  ],
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.1.1",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "vitepress": "^1.2.0"
+  }
+}
